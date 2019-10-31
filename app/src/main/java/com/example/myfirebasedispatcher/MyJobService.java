@@ -22,12 +22,10 @@ import org.json.JSONObject;
 
 import java.text.DecimalFormat;
 
-import cz.msebera.android.httpclient.entity.mime.Header;
-
 public class MyJobService extends JobService {
     public static final String TAG = MyJobService.class.getSimpleName();
-    final String APP_ID = "Masukkan API key anda...";
-    public static String EXTRAS_CITY = "extras_city";
+    final String APP_ID = "9e07ecddd6e85d8414634aef85222302";
+    public static String EXTRAS_CITY = "Tangerang";
 
     @Override
     public boolean onStartJob(JobParameters job) {
